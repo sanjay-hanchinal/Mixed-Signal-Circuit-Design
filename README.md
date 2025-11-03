@@ -49,6 +49,7 @@ from the true baseline (zero or expected reference point).
 
 
 3) Closed loop with pedestal error cancellation :
+
 Pedestal error cancellation is a technique used in closed-loop systems to correct low-frequency errors in the system’s output signal. 
 In a closed-loop system, a feedback mechanism continuously monitors the output and adjusts the input to reduce any errors. Pedestal errors, which are 
 unwanted shifts in the signal baseline, can be subtracted out through feedback and correction circuits.
@@ -64,6 +65,7 @@ Consists of transconductance amplifier, sampling capacitor CH, s1-s3 switches.
 Widely used configuration- in ADC for capacitive load-Used in Pipelined AD
 
 5) Current mode architecture :
+
 Current Mode Architecture refers to a system design where current, rather than voltage, is used as the primary signal parameter. This approach is commonly 
 used in high-speed analog circuits and communication systems.
 
