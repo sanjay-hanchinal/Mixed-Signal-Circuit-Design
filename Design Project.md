@@ -26,3 +26,4 @@ Circuit Diagram
 
 Implementation :
 
+<img width="957" height="654" alt="image" src="https://github.com/user-attachments/assets/f608d67a-0ddf-429a-86ca-0b7399446994" />
