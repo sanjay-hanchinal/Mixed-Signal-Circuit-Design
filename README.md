@@ -30,3 +30,6 @@ from the true baseline (zero or expected reference point).
 •Signal to noise ratio (SNR) – signal power/rms of noise 
 •Signal to (noise+distortion) ratio (SNDR) – signal power / signalpower – 1st harmonic amplitude
 
+
+1) Open loop architecture
+   <img width="753" height="296" alt="image" src="https://github.com/user-attachments/assets/90ffd698-8d77-42aa-aa2d-cf37c95155be" />
