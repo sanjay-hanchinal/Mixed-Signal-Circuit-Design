@@ -1,0 +1,1 @@
+Documentation of the design project titlted "ANALYSIS OF DIFFERENT KINDS OF SAMPLE AND HOLD ARCHITECTURES IN 180nm TECHNOLOGY".
