@@ -1,14 +1,6 @@
-Aim is to implement different kinds of sample and hold architectures and 
-analyse their performance metrics to understand their applications. 
-Functionality: A Sample and Hold (S/H) Circuit is primarily used in 
-conjunction with Analog-to-Digital Converters (ADC) to sample and maintain 
-an analog input signal for conversion. 
-Purpose at Front-End: It is employed at the front-end of the ADC to relax the 
-sampling time constraints, allowing for more accurate signal processing. 
-Purpose at Back-End: It is also used at the output of Digital-to-Analog 
-Converters (DAC) to eliminate or suppress glitches that might occur during 
-conversion. 
-Signal Interface: Acts as an interface between the analog world and digital 
-signal processing systems, ensuring precise signal acquisition and conversion. 
-Key Requirements: High precision and speed are crucial for the proper 
-functioning of S/H circuits in both ADC and DAC applications.
+This project focuses on the design and analysis of various Sample and Hold (S/H) circuit architectures to evaluate their performance and suitability for different applications.
+A Sample and Hold circuit captures an analog signal at a specific instant and maintains it for a defined period, enabling accurate conversion and processing. 
+In Analog-to-Digital Converter (ADC) systems, it is employed at the front-end to relax sampling time constraints and enhance conversion accuracy.
+In Digital-to-Analog Converter (DAC) systems, it serves at the back-end to suppress output glitches and ensure smooth signal transitions. 
+Acting as a crucial interface between analog and digital domains, the S/H circuit ensures precise signal acquisition and integrity in mixed-signal systems.
+The project emphasizes achieving high precision, speed, and stability, which are critical for efficient performance in modern ADC and DAC applications.
