@@ -26,4 +26,69 @@ Circuit Diagram
 
 Implementation :
 
-<img width="957" height="654" alt="image" src="https://github.com/user-attachments/assets/f608d67a-0ddf-429a-86ca-0b7399446994" />
+
+First we implemented a normal Sample and hold circuit using nmos , pmos and cmos as switch. The observations are as follows:
+
+PMOS as a switch
+
+
+![22 50 28 ರಲ್ಲಿ WhatsApp ಇಮೇಜ್ 2025-11-04_8e9a33bb](https://github.com/user-attachments/assets/eaa3c749-4a6a-498d-b3ce-29dd0ed04da0)
+
+
+
+
+
+Ouput waveform 
+
+
+
+![22 50 29 ರಲ್ಲಿ WhatsApp ಇಮೇಜ್ 2025-11-04_7b501f65](https://github.com/user-attachments/assets/cb56ab85-42dd-42c4-8b7f-360067847c88)
+
+
+
+
+
+
+
+NMOS as a switch 
+
+
+
+
+![22 50 30 ರಲ್ಲಿ WhatsApp ಇಮೇಜ್ 2025-11-04_536631f1](https://github.com/user-attachments/assets/ce8c56c6-0cc8-4406-9e0b-079cba81f60b)
+
+
+
+Ouput waveform 
+
+
+
+![22 50 30 ರಲ್ಲಿ WhatsApp ಇಮೇಜ್ 2025-11-04_01c995ad](https://github.com/user-attachments/assets/e4bf3efe-9f7d-4a53-9bdd-db876b06f3cd)
+
+
+
+
+
+
+CMOS as a switch
+
+
+
+![22 50 28 ರಲ್ಲಿ WhatsApp ಇಮೇಜ್ 2025-11-04_b5bd5194](https://github.com/user-attachments/assets/dde5220f-34c0-43e5-991d-367ac7de4f8b)
+
+
+
+
+Output waveform
+
+
+![22 50 30 ರಲ್ಲಿ WhatsApp ಇಮೇಜ್ 2025-11-04_c359afb8](https://github.com/user-attachments/assets/28e0b009-c907-4edf-82fb-c28300074d83)
+
+
+
+
+
+
+
+
+
