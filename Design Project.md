@@ -88,6 +88,11 @@ Output waveform
 
 
 
+1) Open loop architecture:
+   As this architecture uses buffers , the buffer design is provided below.
+CMOS buffer
+ 
+
 
 
 
