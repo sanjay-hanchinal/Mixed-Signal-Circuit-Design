@@ -89,10 +89,41 @@ Output waveform
 
 
 1) Open loop architecture:
+
+
+
+
+
    As this architecture uses buffers , the buffer design is provided below.
 CMOS buffer
+
+CMOS buffer is a digital circuit used to strengthen or restore logic signals without altering their logical value
+It acts as an intermediary between circuits to provide current drive, isolation, or signal regeneration.
+
+<img width="780" height="501" alt="image" src="https://github.com/user-attachments/assets/98c40d5e-493b-43e5-a060-8feb5431a7f6" />
+
  
 
+
+Open loop architecture circuit 
+
+<img width="821" height="315" alt="image" src="https://github.com/user-attachments/assets/87041545-2fa6-45dd-af20-9e7dd81d0ef3" />
+
+
+
+
+Implementation of test circuit 
+
+<img width="786" height="464" alt="image" src="https://github.com/user-attachments/assets/a46599b5-14ab-423d-bc83-55f519480342" />
+
+
+Output waveform
+
+<img width="995" height="564" alt="image" src="https://github.com/user-attachments/assets/dae7dca8-f92e-4fb6-92b3-7e3873e22675" />
+
+
+Observation :  
+Rise time=89.51E-9 s Fall time=89.51E-9 s
 
 
 
