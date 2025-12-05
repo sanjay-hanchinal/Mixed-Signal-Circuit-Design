@@ -135,3 +135,127 @@ Rise time=89.51E-9 s Fall time=89.51E-9 s
 
 
 
+
+OPEN LOOP ARCHITECTURE 
+
+Circuit diagram 
+<img width="821" height="315" alt="image" src="https://github.com/user-attachments/assets/b251c2bc-fa11-4f0c-ab9a-8a750ddd6ec0" />
+
+
+This kind of sample and hold architecture uses two opamp based buffers. The open-loop S/H is a simple sampling system where the input is directly connected to the hold capacitor during the sampling phase, without any feedback amplifier to correct errors.
+
+Working :
+Sampling Phase (φ = ON)
+The MOS switch conducts. The input voltage charges the hold capacitor and CH tracks Vin.
+
+Hold Phase (φ = OFF)
+
+The switch opens. The capacitor retains the sampled voltage , output remains constant.
+
+Limitations of Open loop architecture
+
+Gain error
+Voltage on CH depends on switch resistance and input source impedance.
+
+Droop (voltage decay)
+Leakage of switch + capacitor ESR causes voltage change during hold.
+
+Charge injection & clock feedthrough
+When the MOS switch turns OFF, channel charge is dumped into C_H.
+
+Nonlinearity
+Switch resistance varies with Vin → distortion.
+
+Not suitable for high-resolution ADCs
+Typically limited to ~6–8 bits accuracy.
+
+Advantages:
+Very simple architecture
+
+Low power
+
+No amplifier complexity
+
+High speed (limited only by RC time constant)
+
+
+
+Implementation 
+
+<img width="1920" height="1080" alt="Screenshot from 2025-12-02 22-56-36" src="https://github.com/user-attachments/assets/b194f9e5-a730-40df-be40-cae378d81418" />
+
+
+
+Output waveform :
+
+![openloop](https://github.com/user-attachments/assets/3a42eb77-6093-452a-ba26-04783d8fe417)
+
+
+
+
+Closed-loop architecture :
+
+In a closed-loop S/H, an op-amp with feedback ensures that the sampled voltage on the hold capacitor is accurate, linear, and corrected for errors.
+
+Circuit diagram 
+<img width="696" height="220" alt="image" src="https://github.com/user-attachments/assets/88a3bd9f-14ad-476b-bd8f-458985ec3628" />
+
+
+Working 
+
+Sampling Phase (φ = ON) — Feedback Closed
+
+Switch is ON → feedback loop is active.
+
+Op-amp forces:
+
+Vout=Vin
+	​
+
+Hold capacitor charges to exactly Vin (corrects errors like switch resistance).
+
+Hold Phase (φ = OFF) — Feedback Open
+
+Switch is OFF → capacitor isolated.
+
+Op-amp works as a unity-gain buffer, outputting the stored voltage with:
+
+Very low droop
+
+High drive capability
+
+Advantages :
+High accuracy
+
+
+Charge injection is compensated
+
+Op-amp can restore the correct voltage.
+
+Suitable for high-resolution ADCs , 12–16 bits typical.
+
+High input impedance
+
+Low droop
+
+Limitations:
+Slower than open-loop
+
+Op-amp settling limits speed.
+
+More power consumption
+
+Op-amp stays active.
+
+Larger area
+
+More circuitry, especially in integrated design.
+
+Requires a high-performance op-amp
+
+
+
+Implementation:
+
+
+
