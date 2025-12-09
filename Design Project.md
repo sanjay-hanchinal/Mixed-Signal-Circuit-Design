@@ -101,14 +101,6 @@ CMOS buffer is a digital circuit used to strengthen or restore logic signals wit
 It acts as an intermediary between circuits to provide current drive, isolation, or signal regeneration.
 
 
-Design Specifications:
-
-Wp1 = 20u
-Wp2 = 40u
-Lp = Ln = 500n , to avoid channel length modulation.
-
-<img width="780" height="501" alt="image" src="https://github.com/user-attachments/assets/98c40d5e-493b-43e5-a060-8feb5431a7f6" />
-
  
 
 
