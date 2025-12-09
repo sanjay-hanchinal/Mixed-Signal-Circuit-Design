@@ -169,67 +169,21 @@ No amplifier complexity
 High speed (limited only by RC time constant)
 
 
+Design Outcome:
 
+Opamp with gain of 62 dB and Phase margin of 80 degrees.
 
-Closed-loop architecture :
+Open loop architecture with less distortions in the ouput side.
 
-In a closed-loop S/H, an op-amp with feedback ensures that the sampled voltage on the hold capacitor is accurate, linear, and corrected for errors.
+Designed the circuit for all three switches -  NMOS , PMOS and CMOS.
 
-Circuit diagram 
-<img width="696" height="220" alt="image" src="https://github.com/user-attachments/assets/88a3bd9f-14ad-476b-bd8f-458985ec3628" />
+Summary/Novelty:
+Open loop S/H provides:
+Very High Speed,
+Lower Power Consumption,
+Compact Area,
+Less Sensitive to Op-Amp Stability Issues.
 
-
-Working 
-
-Sampling Phase (φ = ON) — Feedback Closed
-
-Switch is ON → feedback loop is active.
-
-Op-amp forces:
-
-Vout=Vin
-	​
-
-Hold capacitor charges to exactly Vin (corrects errors like switch resistance).
-
-Hold Phase (φ = OFF) — Feedback Open
-
-Switch is OFF → capacitor isolated.
-
-Op-amp works as a unity-gain buffer, outputting the stored voltage with:
-
-Very low droop
-
-High drive capability
-
-Advantages :
-High accuracy
-
-
-Charge injection is compensated
-
-Op-amp can restore the correct voltage.
-
-Suitable for high-resolution ADCs , 12–16 bits typical.
-
-High input impedance
-
-Low droop
-
-Limitations:
-Slower than open-loop
-
-Op-amp settling limits speed.
-
-More power consumption
-
-Op-amp stays active.
-
-Larger area
-
-More circuitry, especially in integrated design.
-
-Requires a high-performance op-amp
 
 
 
