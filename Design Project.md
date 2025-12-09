@@ -139,8 +139,34 @@ Rise time=89.51E-9 s Fall time=89.51E-9 s
 OPEN LOOP ARCHITECTURE 
 
 Circuit diagram 
-<img width="821" height="315" alt="image" src="https://github.com/user-attachments/assets/b251c2bc-fa11-4f0c-ab9a-8a750ddd6ec0" />
+<img width="2431" height="1135" alt="image" src="https://github.com/user-attachments/assets/bde5b4e8-315b-4c79-ac4b-198fa8c1ee5e" />
 
+Design of Opamp(for Buffer)
+
+<img width="1384" height="767" alt="image" src="https://github.com/user-attachments/assets/bd4c9f0d-2355-4a8d-808f-9144a1b749db" />
+Design procedure
+<img width="756" height="1045" alt="image" src="https://github.com/user-attachments/assets/7ad6a21e-bc1f-4f1f-b4af-ab7d9eb881bb" />
+specifications of opamp
+<img width="581" height="613" alt="image" src="https://github.com/user-attachments/assets/aa47fdd9-8b45-468c-aa73-b98919590f24" />
+Test circuit
+<img width="1889" height="1482" alt="image" src="https://github.com/user-attachments/assets/2b0c6362-d6f6-4b2a-be6e-ebe0e83a0c48" />
+AC analysis of opamp
+<img width="3039" height="1370" alt="image" src="https://github.com/user-attachments/assets/edc3c891-2afb-4e5e-92d0-2365ae811ce2" />
+
+Test circuit--opamp as buffer
+<img width="1178" height="778" alt="image" src="https://github.com/user-attachments/assets/2e13979d-4d6f-4891-89c5-6bd52d88c906" />
+
+Transient analysis of opamp as buffer
+
+<img width="1436" height="623" alt="image" src="https://github.com/user-attachments/assets/bf612fd0-262f-4c7c-815f-1c6ad90c7c6a" />
+
+Transient analysis of openloop S&H:
+
+<img width="1324" height="532" alt="image" src="https://github.com/user-attachments/assets/b05e2776-99d2-41ac-a92c-4dcd0f25d173" />
+
+Open loop S/H ckt spectrum analysis
+
+<img width="933" height="518" alt="image" src="https://github.com/user-attachments/assets/abda817c-758b-4898-a324-d40c4df0d583" />
 
 This kind of sample and hold architecture uses two opamp based buffers. The open-loop S/H is a simple sampling system where the input is directly connected to the hold capacitor during the sampling phase, without any feedback amplifier to correct errors.
 
@@ -177,18 +203,6 @@ Low power
 No amplifier complexity
 
 High speed (limited only by RC time constant)
-
-
-
-Implementation 
-
-<img width="1920" height="1080" alt="Screenshot from 2025-12-02 22-56-36" src="https://github.com/user-attachments/assets/b194f9e5-a730-40df-be40-cae378d81418" />
-
-
-
-Output waveform :
-
-![openloop](https://github.com/user-attachments/assets/3a42eb77-6093-452a-ba26-04783d8fe417)
 
 
 
@@ -253,9 +267,6 @@ More circuitry, especially in integrated design.
 
 Requires a high-performance op-amp
 
-
-
-Implementation:
 
 
 
