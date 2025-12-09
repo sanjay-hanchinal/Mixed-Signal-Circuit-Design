@@ -119,23 +119,6 @@ Open loop architecture circuit
 
 
 
-Implementation of test circuit 
-
-<img width="786" height="464" alt="image" src="https://github.com/user-attachments/assets/a46599b5-14ab-423d-bc83-55f519480342" />
-
-
-Output waveform
-
-<img width="995" height="564" alt="image" src="https://github.com/user-attachments/assets/dae7dca8-f92e-4fb6-92b3-7e3873e22675" />
-
-
-Observation :  
-Rise time=89.51E-9 s Fall time=89.51E-9 s
-
-
-
-
-
 OPEN LOOP ARCHITECTURE 
 
 Circuit diagram 
